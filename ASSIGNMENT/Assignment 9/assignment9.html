@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="cyan">
+    <h1>Reservation Form</h1>
+    <form>
+        <fieldset>
+            <legend>General Information</legend>
+            <label for="Ad">Arrival date </label>
+            <input type="date" name="Ad" id="Ad">
+            <br><br>
+            <label for="Nights">Nights: </label>
+            <input type="number" name="Nights:" id="Nights:">
+
+            <br><br>
+            <label for="Adults">Adults </label>
+            <input type="number" name="Adults" id="Adults">
+            <br><br>
+            <label for="Children">Children </label>
+            <input type="number" name="Children" id="Children">
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="room">Room type: </label>
+            <input type="radio" id="room" name="room"> Standard 
+            <input type="radio" id="room" name="room"> Business
+            <input type="radio" id="room" name="room"> Suite 
+            <br><br>
+            <label for="bed">Bedtype type: </label>
+            <input type="radio" id="bed" name="bed"> King 
+            <input type="radio" id="bed" name="bed"> Double Double
+            <br><br>
+            <label for="box">Smoking</label>
+            <input type="checkbox" name="box" id="box">          
+            <br><br>
+            <label for="food">Food options: </label>
+            <input type="text" name="food" id="food">
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <br><br>
+            <label for="name">Email</label>
+            <input type="email" name="name" id="name" required>
+            <br><br>
+            <label for="name">Password</label>
+            <input type="password" name="name" id="name" required>
+            <br><br>
+            <label for="name">Phone</label>
+            <input type="text" name="name" id="name" required>
+            <br><br>           
+        </fieldset>
+        <fieldset>
+            <legend>Distance Information</legend>
+            <label for="fuel">fuel meter  
+            </label>
+            <meter id="fuel" name="fuel" max="100" min="0" low="30" high="60" optimum="80" value="56"></meter>
+            <br><br>
+
+            <label for="progress">Progress Bar</label>
+            <progress min="0" max="100" value="90"></progress>
+            <br><br>
+
+            <label for="about">Write About the place of Visit: </label>
+            <br>
+            <textarea name="about" id="about" cols="40" rows="9" placeholder="Enter your Paragraph"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" >
+    </form>   
+</body>
+</html>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
