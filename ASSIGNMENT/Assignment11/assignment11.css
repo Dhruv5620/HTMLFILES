@@ -1,0 +1,54 @@
+h1{
+    color: white;
+    background-color: #bd3737;
+    text-align: center;
+    font-family: algerian;
+}
+
+h2{
+    color: red;
+    background-color: cyan;
+
+}
+
+p{
+    text-indent: 35px;
+    line-height: 1.5 
+}
+
+.ca{
+    color: blue;
+    text-align: right;
+    text-decoration: overline;
+    
+}
+
+p.rightToLeft{
+    direction: rtl; /* rtl --> right to left */
+    text-align: right;
+    text-indent: 50px;
+    line-height: 2.0 
+}
+
+.Captain{
+    font-family: 'Lobster', cursive;
+}
+
+.im{
+    background-color: slateblue;
+    color: yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.iron{
+    text-indent: 45px;
+    line-height: 1.3;
+    text-decoration: line-through;
+}
+
+#one{
+    direction: rtl; /* rtl --> right to left */
+    unicode-bidi: bidi-override;
+    text-align: right;
+}
