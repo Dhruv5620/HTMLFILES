@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-2</title>
+</head>
+<body>
+<h1>Student Details</h1>
+  <form>
+    <fieldset>
+        <legend>Student's Interests</legend>
+        <label for="colors">Select your fav color</label>
+        <input type="text" list="list1">
+        <datalist id="list1">
+            <option>Red</option>
+            <option>Green</option>
+            <option>Yellow</option>
+        </datalist>
+        <br>
+        <br>
+        <label for="fruits">Select your favourite fruit</label>
+        <select name="fruits" id="fruits" multiple size="8">
+            <optgroup label="Group1">
+                <option value="apple">Apple</option>
+                <option value="orange">Orange</option>
+                <option value="mango">Mango</option>
+            </optgroup>
+             <optgroup label="Group2">
+                <option value="banana">Banana</option> 
+                <option value="grapes">Grapes</option>
+                <option value="kiwi" disabled>Kiwi</option>
+            </optgroup>
+            <optgroup label="Group3">
+                <option value="papaya">Papaya</option> 
+                <option value="lichi">Lichi</option>
+                <option value="peach">Peach</option>
+            </optgroup>
+        </select>
+<br>
+<br>
+<br>
+<br>
+
+<label for="username">Enter your name</label>
+<input type="text " id="username" 
+       minlength="5"
+       maxlength="10">
+<br>
+<br>
+<label for="pass">Enter Your Password</label>       
+<input type="password" name="pass" id="pass"
+       pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+       [UpperCase, LowerCase, Number/SpecialChar and min 8 Chars] 
+    <br>
+    <br>
+    <label for="phone">Enter your phone number</label>  
+    <input type="tel" name="phone" id="phone" 
+           pattern="[1-9]{1}[0-9]{9}">  
+    <br>
+    <br>
+    <label for="fuel">Fuel Meter</label>
+    <meter name="fuel" 
+           id="fuel" 
+           min="0" 
+           max="100" 
+           value="29"  
+           low="30"
+           high="60"
+           optimum="80"
+    ></meter>  
+    <meter name="fuel" 
+           id="fuel" 
+           min="0" 
+           max="100" 
+           value="31"  
+           low="30"
+           high="60"
+           optimum="80"
+    ></meter>
+    <meter name="fuel" 
+           id="fuel" 
+           min="0" 
+           max="100" 
+           value="61"  
+           low="30"
+           high="60"
+           optimum="80"
+    ></meter>
+    <br>
+    <br>
+    <label for="prog">Progress Bar</label>
+    <progress id="prog" name="prog" max="100" value="70"></progress> 
+    <br>
+    <br>
+    <label for="user">Name</label>
+    <input type="text" name="user" id="user" pattern="[a-z]{10}">
+    <br>
+    <br>
+    <label for="box">textbox</label>  
+    <textarea name="box" id="box" cols="30" rows="10" placeholder="Enter Your Paragraph"></textarea>
+    <br>
+    <br>
+    <label for="checkbox">Check Box</label>
+    <input type="checkbox" id="checkbox">
+</fieldset>
+<br>
+<br>
+<input type="submit">
+  </form>
+</body>
+</html>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
